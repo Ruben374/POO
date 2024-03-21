@@ -2,6 +2,7 @@ package aula05;
 
 import java.util.Scanner;
 
+
 public class DateYMD {
     private int day, month, year;
 
@@ -10,7 +11,7 @@ public class DateYMD {
         return this.year + " - " + this.month + " - " + this.day;
     }
 
-    DateYMD(int day, int month, int year) {
+    public DateYMD(int day, int month, int year) {
         if (valid(day, month, year)) {
             this.day = day;
             this.month = month;
@@ -21,7 +22,7 @@ public class DateYMD {
 
     }
 
-    DateYMD() {
+   public  DateYMD() {
     }
 
     public void setDay(int day) {
