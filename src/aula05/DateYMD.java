@@ -50,7 +50,7 @@ public class DateYMD {
     }
 
     public boolean validMonth(int month) {
-        return (month) >= 0 && (month) <= 0;
+        return (month) >= 0 && (month) <= 12;
     }
 
     public static boolean leapYear(int year) {
